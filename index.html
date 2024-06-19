@@ -1,0 +1,214 @@
+<!DOCTYPEhtml>
+<header>
+<title>HTML NOTES</title>
+</header>
+<style>
+#h1 {
+background-color : black;
+color: white;
+text-align: center;
+height: 111px;
+display:flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 0;
+}
+#link{
+text-decoration: none;
+color: #fff;
+
+}
+#headlink {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-color: black;
+margin-top: 0px;
+height: 100px;
+}
+</style>
+<body>
+<h1 id="h1" >Welcome to learn HTML basics</h1>
+<div id="headlink">
+<a href="#structure" id="link">Structure</a>
+<a href="#text" id="link">Text</a>
+<a href="#lists" id="link">Lists</a>
+<a href="#links" id="link">Links</a>
+<a href="#images"  id="link">Image Media</a>
+<a href="#tables" id="link">Tables</a>
+<a href="#form" id="link">Forms</a>
+<a href="#extramarkup" id="link">Extra MArkup</a>
+<a href="#media" id="link">Media</a>
+</div>
+<h2 id="structure">Chapter 1: Structure</h2>
+<hr/>
+<p>The structure of HTML document includes the use of elements such as < html >,
+< head >, and < body >. These elements help to define the layout and cotent of a web page. </p>
+<br/>
+<br/>
+<br/>
+<h2 id="text">Chapter 2: Text</h2>
+<hr/>
+<p>HTML offers six levels of headings, from < h1 > to < h6 >. Each heading level
+represents a different level of importance.</p>
+<h1>Heading 1</h1>
+<h2>Heading 1</h2>
+<hr/>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+<h2>Peragraphs</h2>
+<p>Paragraphs are defined with the < p > tag.</p>
+<p>This is a sample demonstating theparagraph tag.</p>
+<br/>
+<br/>
+<br/>
+<h2 id="lists">Chapter 3: Lists</h2>
+<hr/>
+<h3>Orderd List</h3>
+<ol>
+<li>First item
+<ol>
+<li>Sub item 1</li>
+<li>Sub item 2</li>
+</ol>
+</li>
+</ol>
+
+<ol>
+<li>
+Second Item
+<ol>
+<li>Sub item 1</li>
+<li>Sub item 2</li>
+<ol>
+<li>Sub sub item 2</li>
+<li>Sub sub item 2</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+
+<ol>
+<li>Third Item</li>
+</ol>
+
+<h3>UnOrderd List</h3>
+<ul>
+<li>First item
+<ul>
+<li>Sub item 1</li>
+<li>Sub item 2</li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li>
+Second Item
+<ul>
+<li>Sub item 1</li>
+<li>Sub item 2</li>
+<ul>
+<li>Sub sub item 2</li>
+<li>Sub sub item 2</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li>Third Item</li>
+</ul>
+<h3>Definition List</h3>
+<dl>
+<dt>HTML</dt>
+<dd>A markup language for creating web pages.</dd>
+<dt>CSS</dt>
+<dd>A style sheet language used for describing the presentation of a document written in HTML.</dd>
+<dt>JavaScript</dt>
+<dd>A programming language commonly used in web development to create interactive effects within web browsers.</dd>
+</dl>
+
+
+<br/>
+<br/>
+<br/>
+<h2 id="links">Chapter 4: Links</h2>
+<hr/>
+<p>Links are created using the <a> tag.</p>
+<a href="https://gooogle.com" target="_blank">Google</a>
+
+<br/>
+<br/>
+<br/>
+<h2 id="images">Chapter 5: Images</h2>
+<hr/>
+<p>Images are embedded using the <img> tag.</p>
+<img src="./img.jpg" width="200px" height="200px"/>
+
+<br/>
+<br/>
+<br/>
+<h2 id="tables">Chapter 5: Tables</h2>
+<hr/>
+<table border="1">
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+</tr>
+
+<tr>
+<td>Data 1</td>
+<td>Data 2</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+<br/>
+<h2 id="form">Chapter 7: Form</h2>
+<hr/>
+<form action="#">
+<label for="name">Name:
+<input type="text" name="userName" id="name"/>
+</label>
+<label for="email">Email:
+<input type="email" name="userEmail" id="email"/>
+</label>
+<input type="Submit" value="Submit"/>
+</form>
+
+
+
+<br/>
+<br/>
+<br/>
+<h2 id="extramarkup">Chapter 8: Extra Markup</h2>
+<hr/>
+<p>Additional elements include < div >, < span >, and more.</p>
+
+<div>This is a <span>SPAN</span> insite a div.</div>
+
+
+<br/>
+<br/>
+<br/>
+<h2 id="media">Chapter 9: Media</h2>
+<hr/>
+<h3>Video</h3>
+<video src="./web.mp4" controls width="200px" height="200px"></video>
+<br/>
+<br/>
+<h3>Audio</h3>
+<audio src=""></audio>I have No Audio.
+
+<footer>
+&copy 2024 powered by CodeNetic
+</footer>
+</body>
+</html>
